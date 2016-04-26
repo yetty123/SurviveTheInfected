@@ -45,22 +45,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\AnimationLinkEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\AstarPathEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\AstarUpdateChecker.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\AstarUpdateWindow.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\CustomGraphEditorAttribute.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\EditorGUIx.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\EditorUtilities.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\GraphEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\GridGeneratorEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\NavMeshGeneratorEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\PointGeneratorEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphUpdateSceneEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\Misc\AstarEnumFlagDrawer.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\ModifierEditors\RaycastModifierEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\ModifierEditors\SmoothModifierEditor.cs" />
-     <Compile Include="Assets\AstarPathfindingEditor\Editor\SeekerEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\AnimationLinkEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\AstarPathEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\AstarUpdateChecker.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\AstarUpdateWindow.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\CustomGraphEditorAttribute.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\EditorGUIx.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\EditorUtilities.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\GraphEditors\GraphEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\GraphEditors\GridGeneratorEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\GraphEditors\NavMeshGeneratorEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\GraphEditors\PointGeneratorEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\GraphUpdateSceneEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\Misc\AstarEnumFlagDrawer.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\ModifierEditors\RaycastModifierEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\ModifierEditors\SmoothModifierEditor.cs" />
+     <Compile Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\SeekerEditor.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
      <Compile Include="Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
@@ -80,7 +80,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
-     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
+     <None Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\Custom Assets\Helicopter\Info.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
@@ -162,7 +162,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
-     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\NavmeshOutline.shader" />
+     <None Include="Assets\Custom Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\NavmeshOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
@@ -203,10 +203,13 @@
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Alankrit/Documents/repos/Survive The Infected/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/Alankrit/Documents/GitHub/SurviveTheInfected/Survive The Infected/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/Alankrit/Documents/repos/Survive The Infected/Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/Alankrit/Documents/GitHub/SurviveTheInfected/Survive The Infected/Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>C:/Users/Alankrit/Documents/GitHub/SurviveTheInfected/Survive The Infected/Assets/Scripts/AI/A Star/System.Drawing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

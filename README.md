@@ -1,4 +1,4 @@
-# SurviveTheInfected
+﻿# SurviveTheInfected
 Test Project for University
 
 ## Project Instructions and User’s Manual
@@ -19,7 +19,7 @@ Double click on the executable and choose resolution and quality to play in PC, 
 Install Unity web player to play game. Run the game in Firefox (recommended); more information in References
 
 ### Navigation : 
-W - Move Forward, A - Move Left, S - Move Backward, D - Move Right, Shift - Sprint. <Mouse> - Look Around
+W - Move Forward, A - Move Left, S - Move Backward, D - Move Right, Shift - Sprint, V - Zoom, <Mouse> - Look Around
 UI Guide : Click on Start to play the game. If dead, click on Try Again? to retry the game. Similarly, Play Again? to play the game again after winning
 
 ### Game Rules : 
