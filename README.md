@@ -1,7 +1,7 @@
 ﻿# SurviveTheInfected
 Test Project for University 
 
-Web Build hosted link (valid until May 25, 2016) http://gamebucket.io/game/50da60df­1c4c­4072­abd6­11d2abda0229 (Firefox)
+Web Build hosted link (valid until May 25, 2016) </> http://gamebucket.io/game/50da60df-1c4c-4072-abd6-11d2abda0229 </> (Firefox)
 
 ## Project Instructions and User’s Manual
 
